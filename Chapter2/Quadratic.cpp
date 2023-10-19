@@ -1,7 +1,7 @@
 #include "Quadratic.h"
 
 //precondition: going to call my defaults constructor
-//postcondition: going to set the variables to 0 (initialize them)
+//postcondition: going intialize the private variables to 0.0 since they are doubles
 Quadratic::Quadratic() : a(0.0), b(0.0), c(0.0) {}
 
 //precondition: going to get the a(coefficient)
